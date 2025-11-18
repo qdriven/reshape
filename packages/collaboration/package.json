@@ -6,12 +6,11 @@
     "clean": "git clean -xdf .cache .turbo dist node_modules",
     "typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
-  "dependencies": {
-    "@t3-oss/env-nextjs": "^0.13.4",
+、    "@t3-oss/env-nextjs": "^0.13.4",
     "@liveblocks/client": "^2.24.2",
     "@liveblocks/node": "^3.8.0",
-    "@liveblocks/react": "^2.24.2",
-    "react": "^19.1.0",
+    "@liveblocks/react": "^3.8.0",
+、    "react": "^19.1.0",
     "server-only": "^0.0.1",
     "zod": "^3.25.28"
   },
